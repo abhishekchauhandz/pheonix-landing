@@ -17,11 +17,20 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.bg-off-white {
+  background-color: #f9f9f9; /* off-white color */
+  color: #171717;
+}
+
+.bg-transparent {
+  background-color: transparent;
+  color: #f9f9f9;
 }
